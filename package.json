@@ -1,0 +1,14 @@
+{
+  "name": "buffy-vampire-slayer",
+  "version": "1.0.0",
+  "description": "Site criado para fans de Buffy",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "/src/pages/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

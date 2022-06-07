@@ -1,0 +1,88 @@
+@font-face {
+  font-family: buffied;
+  src: url(/src/assets/BUFFIED_.TTF);
+}
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  color: #b4b1ad;
+}
+
+body {
+  /*background styles*/
+  background-image: url("img/background_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: #908a82;
+}
+
+.list a:hover {
+  color: #b4b1ad;
+}
+
+h3 {
+  color: #908a82;
+  font-size: 23px;
+}
+
+.float-left li {
+  float: left;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.float-right li {
+  float: right;
+  padding-left: 25px;
+}
+main {
+  max-width: 1000px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 50px;
+}
+
+.stat {
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  border: 1px solid white;
+  flex-direction: column;
+}
